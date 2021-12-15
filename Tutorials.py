@@ -47,3 +47,5 @@ Tutorial7 = {
     "Link": "https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01",
 
 }
+
+Tutorials = [Tutorial1, Tutorial2, Tutorial3, Tutorial4, Tutorial5, Tutorial6, Tutorial7]
