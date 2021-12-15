@@ -1,4 +1,3 @@
-
 Numpy = {
     'ID': 'Numpy',
     'LibraryOf': 'Python',
@@ -6,13 +5,11 @@ Numpy = {
     'UsefulIn': 'LinearAlgebra',
 }
 
-
 Git = {
     'ID': 'Git',
     'Description': 'software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.',
     'UsefulIn': ['SoftwareDevelopment', 'ProjectManagement'],
 }
-
 
 Docker = {
     'ID': 'Docker',
@@ -21,6 +18,3 @@ Docker = {
 }
 
 Software = [Numpy, Git, Docker]
-
-
-
