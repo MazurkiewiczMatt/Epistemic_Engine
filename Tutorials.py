@@ -1,4 +1,5 @@
 Tutorial1 = {
+    "ID": 'Tutorial1',
     "Author": "CodeAcademy",
     "Title": "LearnGit",
     "TutorialOf": "Git",
@@ -6,6 +7,7 @@ Tutorial1 = {
 }
 
 Tutorial2 = {
+    "ID": 'Tutorial2',
     "Author": "MIT",
     "Title": "Lecture 6: Version Control (git) (2020)",
     "TutorialOf": "Git",
@@ -13,6 +15,7 @@ Tutorial2 = {
 }
 
 Tutorial3 = {
+    "ID": 'Tutorial3',
     "Author": "",
     "Title": "LearnGitBranching",
     "TutorialOf": "Git",
@@ -20,6 +23,7 @@ Tutorial3 = {
 }
 
 Tutorial4 = {
+    "ID": 'Tutorial4',
     "Author": "",
     "Title": "Docker for Beginners",
     "TutorialOf": "Docker",
@@ -27,6 +31,7 @@ Tutorial4 = {
 }
 
 Tutorial5 = {
+    "ID": 'Tutorial5',
     "Author": "",
     "Title": "Docker for beginners: From Docker Desktop to Deployment",
     "TutorialOf": "Docker",
@@ -34,6 +39,7 @@ Tutorial5 = {
 }
 
 Tutorial6 = {
+    "ID": 'Tutorial6',
     "Author": "",
     "Title": "Deploying Docker Containers",
     "TutorialOf": "Docker",
@@ -41,6 +47,7 @@ Tutorial6 = {
 }
 
 Tutorial7 = {
+    "ID": 'Tutorial7',
     "Author": "",
     "Title": "Deploying Docker Containers",
     "TutorialOf": "Docker",
@@ -89,3 +96,5 @@ Tutorial_template = {
     "TutorialOf": "",
     "Link": "",
 }
+
+Tutorials = [Tutorial1, Tutorial2, Tutorial3, Tutorial4, Tutorial5, Tutorial6, Tutorial7]
