@@ -1,8 +1,3 @@
-#%%
-
-Software = [Numpy, Git, Docker]
-
-#%%
 
 Numpy = {
     'ID': 'Numpy',
@@ -11,7 +6,6 @@ Numpy = {
     'UsefulIn': 'LinearAlgebra',
 }
 
-#%%
 
 Git = {
     'ID': 'Git',
@@ -19,7 +13,6 @@ Git = {
     'UsefulIn': ['SoftwareDevelopment', 'ProjectManagement'],
 }
 
-#%%
 
 Docker = {
     'ID': 'Docker',
@@ -27,7 +20,7 @@ Docker = {
     "UsefulIn": ["ModelDeployment", "SoftwareDevelopment"],
 }
 
+Software = [Numpy, Git, Docker]
 
-#%%
 
 
