@@ -97,4 +97,5 @@ Tutorial_template = {
     "Link": "",
 }
 
-Tutorials = [Tutorial1, Tutorial2, Tutorial3, Tutorial4, Tutorial5, Tutorial6, Tutorial7]
+Tutorials = [Tutorial1, Tutorial2, Tutorial3, Tutorial4, Tutorial5, Tutorial6, Tutorial7, Tutorial8,
+             Tutorial9, Tutorial10, Tutorial11, Tutorial12]
