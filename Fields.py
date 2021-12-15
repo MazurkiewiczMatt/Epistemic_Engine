@@ -48,4 +48,15 @@ ComputerScience = {
     'UsefulIn': 'SoftwareDevelopment'
 }
 
-Fields = [LinearAlgebra, SignalProcessing, FourierTransform, Convolution, ControlTheory, ElectricalEngineering, SoftwareDevelopment, ComputerScience]
+ReinforcementLearning = {
+    'ID': 'ReinforcementLearning',
+    'BranchOf': 'MachineLearning',
+}
+
+MachineLearning = {
+    'ID': 'MachineLearning',
+    'BranchOf': 'ComputerScience',
+}
+
+Fields = [LinearAlgebra, SignalProcessing, FourierTransform, Convolution, ControlTheory, ElectricalEngineering,
+          SoftwareDevelopment, ComputerScience, ReinforcementLearning, MachineLearning]

@@ -17,6 +17,25 @@ Docker = {
     "UsefulIn": ["ModelDeployment", "SoftwareDevelopment"],
 }
 
-Software = [Numpy, Git, Docker]
+Tableau = {
+    'ID': 'Tableau',
+    'Description': 'Data visualisation software',
+    'UsefulIn': ['Data visualisation']
+}
 
-question = "does this work?"
+Tensorflow = {
+    'ID': 'Tensorflow',
+    'Description': 'Python library for scientific computing and machine learning',
+    'LibraryOf': 'Python',
+    'Requires': ['Python', 'Machine Learning'],
+    'UsefulIn': ['Machine Learning', "Scientific computing", "Neural Networks"],
+}
+
+Keras = {
+    'ID': 'Keras',
+    'LibraryOf': 'Python',
+    'Requires': ['Machine Learning', 'Python', "Tensorflow"],
+    'UsefulIn': ['Machine Learning', "Scientific computing", "Neural Networks"],
+}
+
+Software = [Numpy, Git, Docker, Tableau, Tensorflow, Keras]

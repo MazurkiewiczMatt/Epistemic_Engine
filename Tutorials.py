@@ -47,3 +47,45 @@ Tutorial7 = {
     "Link": "https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01",
 
 }
+
+Tutorial8 = {
+    "Author": "Jirapongse Phuriphanvichai",
+    "Title": "Using R on Jupyter Notebook",
+    "TutorialOf": "R",
+    "Link": "https://dzone.com/articles/using-r-on-jupyternbspnotebook",
+}
+
+Tutorial9 = {
+    "Author": "Shruti Dash",
+    "Title": "How to use tf.function to speed up Python code in Tensorflow",
+    "TutorialOf": "Tensorflow",
+    "Link": "https://www.machinelearningplus.com/deep-learning/how-use-tf-function-to-speed-up-python-code-tensorflow/",
+}
+
+Tutorial10 = {
+    "Author": "",
+    "Title": "Introduction to the keras tuner",
+    "TutorialOf": "Tensorflow",
+    "Link": "https://www.tensorflow.org/tutorials/keras/keras_tuner",
+}
+
+Tutorial11 = {
+    "Author": "",
+    "Title": "Playing CartPole with the Actor-Critic Method",
+    "TutorialOf": "Tensorflow",
+    "Link": "https://www.tensorflow.org/tutorials/reinforcement_learning/actor_critic",
+}
+
+Tutorial12 = {
+    "Author": "",
+    "Title": "",
+    "TutorialOf": ["Tensorflow", "ReinforcementLearning"],
+    "Link": "https://www.tensorflow.org/agents",
+}
+
+Tutorial_template = {
+    "Author": "",
+    "Title": "",
+    "TutorialOf": "",
+    "Link": "",
+}
