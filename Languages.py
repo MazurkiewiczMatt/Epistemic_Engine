@@ -12,4 +12,9 @@ Python = {
     'FilenameExtension': '.py',
 }
 
-Languages = [SQL, Python]
+R = {
+    'LanguageLevel': 'High',
+    'FilenameExtension': '.r',
+}
+
+Languages = [SQL, Python, R]
