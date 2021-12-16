@@ -13,6 +13,7 @@ Python = {
 }
 
 R = {
+    'ID': "R",
     'LanguageLevel': 'High',
     'FilenameExtension': '.r',
 }

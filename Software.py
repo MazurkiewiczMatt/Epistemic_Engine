@@ -20,7 +20,7 @@ Docker = {
 Tableau = {
     'ID': 'Tableau',
     'Description': 'Data visualisation software',
-    'UsefulIn': ['Data visualisation']
+    'UsefulIn': ['DataVisualisation']
 }
 
 Tensorflow = {
@@ -28,14 +28,14 @@ Tensorflow = {
     'Description': 'Python library for scientific computing and machine learning',
     'LibraryOf': 'Python',
     'Requires': ['Python', 'Machine Learning'],
-    'UsefulIn': ['Machine Learning', "Scientific computing", "Neural Networks"],
+    'UsefulIn': ['MachineLearning', "ScientificComputing", "NeuralNetworks"],
 }
 
 Keras = {
     'ID': 'Keras',
     'LibraryOf': 'Python',
-    'Requires': ['Machine Learning', 'Python', "Tensorflow"],
-    'UsefulIn': ['Machine Learning', "Scientific computing", "Neural Networks"],
+    'Requires': ['MachineLearning', 'Python', "Tensorflow"],
+    'UsefulIn': ['MachineLearning', "ScientificComputing", "NeuralNetworks"],
 }
 
 Software = [Numpy, Git, Docker, Tableau, Tensorflow, Keras]

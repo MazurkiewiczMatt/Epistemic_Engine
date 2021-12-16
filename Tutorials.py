@@ -56,6 +56,7 @@ Tutorial7 = {
 }
 
 Tutorial8 = {
+    "ID": 'Tutorial8',
     "Author": "Jirapongse Phuriphanvichai",
     "Title": "Using R on Jupyter Notebook",
     "TutorialOf": "R",
@@ -63,6 +64,7 @@ Tutorial8 = {
 }
 
 Tutorial9 = {
+    "ID": 'Tutorial9',
     "Author": "Shruti Dash",
     "Title": "How to use tf.function to speed up Python code in Tensorflow",
     "TutorialOf": "Tensorflow",
@@ -70,6 +72,7 @@ Tutorial9 = {
 }
 
 Tutorial10 = {
+    "ID": 'Tutorial10',
     "Author": "",
     "Title": "Introduction to the keras tuner",
     "TutorialOf": "Tensorflow",
@@ -77,6 +80,7 @@ Tutorial10 = {
 }
 
 Tutorial11 = {
+    "ID": 'Tutorial11',
     "Author": "",
     "Title": "Playing CartPole with the Actor-Critic Method",
     "TutorialOf": "Tensorflow",
@@ -84,6 +88,7 @@ Tutorial11 = {
 }
 
 Tutorial12 = {
+    "ID": 'Tutorial12',
     "Author": "",
     "Title": "",
     "TutorialOf": ["Tensorflow", "ReinforcementLearning"],
@@ -91,6 +96,7 @@ Tutorial12 = {
 }
 
 Tutorial_template = {
+    "ID": 'Tutorial_template',
     "Author": "",
     "Title": "",
     "TutorialOf": "",

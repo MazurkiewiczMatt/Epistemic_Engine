@@ -79,11 +79,17 @@ def CompileLearningResources(object_ID):
         requirements = []
     print("Topic: " + object_ID + "\n")
     print("1. Useful for " + object_ID)
-    for a in IDs(useful_for_object):
-        print("\t" + a)
+    for a in useful_for_object:
+        if 'Description' in a.keys():
+            print("\t" + a['ID'] + " : " + a['Description'])
+        else:
+            print("\t" + a['ID'])
     print("2. Requirements for " + object_ID)
-    for a in IDs(requirements):
-        print("\t" + a)
+    for a in requirements:
+        if 'Description' in a.keys():
+            print("\t" + a['ID'] + " : " + a['Description'])
+        else:
+            print("\t" + a['ID'])
     print("3. Tutorials for " + object_ID)
     tutorials = TutorialOf(object_ID)
     for tutorial in tutorials:
@@ -95,4 +101,4 @@ def CompileLearningResources(object_ID):
         for tutorial in tutorials:
             print("\t\t" + tutorial["Title"] + " : " + tutorial["Link"])
 
-CompileLearningResources('Numpy')
+CompileLearningResources('Robotics')
